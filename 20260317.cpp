@@ -91,18 +91,71 @@
 //
 //}
 
+//#include <stdio.h>
+//int main()
+//{
+//	int radius; //반지름=radiu
+//	double pi;
+//	pi = 3.14;
+//	
+//	printf("반지름 길이:");
+//	scanf("%d", &radius);
+//	 //3.14*r*r
+//
+//	double area_of_a_circle;
+//	area_of_a_circle = pi * radius * radius;
+//	printf("원의 넓이 : %lf\n" , area_of_a_circle);
+//
+//	double circumference;
+//	circumference = 2 * pi * radius;
+//
+//		printf("원의 둘레 : %lf\n", circumference);
+//	//circumference:원의 둘레
+//
+//
+//		double the_length_of_a_circle;
+//		the_length_of_a_circle = 2 * radius;
+//
+//	printf("원의 길이 :%lf", the_length_of_a_circle);
+//	//원의 길이 2r
+	
+	
+
+
 #include <stdio.h>
 int main()
 {
-	int radius;//반지름=radiu
-	int r; //3.14*r제곱
-	printf("원의 넓이:");
-	scanf("%d", &radius);
-	printf("원의 길이:");//원의 길이 2r
+	
+
+	double w1;
+	double w2;
+	double H;
+	
+	printf("밑변의 길이: ");
+	scanf("%d", &w1);
+	 
+	
+	printf("윗변의 길이: ");
+	scanf("%d", &w2);
+
+
+	printf("사다리꼴의 높이: ");	
+	scanf("%d", &H);
+ 
+
+
+	printf("사다리꼴의 넓이: %d", (w1 + w2) * H/ 2);
+
+	return 0;
+
 	
 
 
-	
+
+
+     // the length of the upper side 윗변의 길이
+	 // trapezoid area scanf("%lf%lf%lf", &w1, &w2, &H);
+     // length of the base 밑변의 길이
 
 
 
