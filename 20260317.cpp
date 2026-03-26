@@ -1,4 +1,4 @@
-//#include <stdio.h>
+ï»¿//#include <stdio.h>
 //int main()
 //{
 //
@@ -6,18 +6,18 @@
 //	pi = 3.14;
 //	int radius = 5;
 //
-//	//pi*¹İÁö¸§*¹İÁö¸§
+//	//pi*ë°˜ì§€ë¦„*ë°˜ì§€ë¦„
 //
 //
 //	float extent = pi * radius * radius;
 //
-//	printf("¿øÀÇ ³ĞÀÌ: %f ", extent);
+//	printf("ì›ì˜ ë„“ì´: %f ", extent);
 //
-//	//circumference= 2 * pi * int redius(¹İÁö¸§);
+//	//circumference= 2 * pi * int redius(ë°˜ì§€ë¦„);
 //
 //	float circumference = 2 * pi * radius;
 //
-//	printf("¿øÀÇ µÑ·¹ : %f", circumference);
+//	printf("ì›ì˜ ë‘˜ë ˆ : %f", circumference);
 //	
 //	return 0;
 //
@@ -36,21 +36,21 @@
 //	int height = 7;
 //
 //	int base = 3;
-//	//¹Øº¯
+//	//ë°‘ë³€
 //
 //
 //	upper_change = 5;
-//	//À­º¯
+//	//ìœ—ë³€
 //
 //
 //	height = 7;
-//	//³ôÀÌ
+//	//ë†’ì´
 //
 //
 //	area_of_a_circle = (base + upper_change) * height / 2;
-//	//³ĞÀÌ
+//	//ë„“ì´
 //
-//	printf("»ç´Ù¸®²ÃÀÇ ³ĞÀÌ: %f", area_of_a_circle);
+//	printf("ì‚¬ë‹¤ë¦¬ê¼´ì˜ ë„“ì´: %f", area_of_a_circle);
 //
 //	return 0;
 //
@@ -61,9 +61,9 @@
 //int main()
 //{
 //	int k;
-//	printf("¿øÇÏ´Â ¼ıÀÚ¸¦ ÀÔ·Â : ");
+//	printf("ì›í•˜ëŠ” ìˆ«ìë¥¼ ì…ë ¥ : ");
 //	scanf("%d" , &k);  //vs:scanf_s
-//	printf("ÀÔ·ÂÇÑ ¼ıÀÚ´Â : %d\n" , k);
+//	printf("ì…ë ¥í•œ ìˆ«ìëŠ” : %d\n" , k);
 //		return 0;
 //
 //}
@@ -73,9 +73,9 @@
 //int main()
 //{
 //	int y, x;
-//	printf("´õÇÏ°í ˜·Àº °ª 2°³ ÀÔ·Â : ");
+//	printf("ë”í•˜ê³  ìƒ†ì€ ê°’ 2ê°œ ì…ë ¥ : ");
 //    scanf("%d %d", &y, &x); //scanf_s
-//	printf("µÎ °ªÀÇ ÇÕÀº %dÀÔ´Ï´Ù.\n", y + x);
+//	printf("ë‘ ê°’ì˜ í•©ì€ %dì…ë‹ˆë‹¤.\n", y + x);
 //	return 0;
 //}
 
@@ -84,85 +84,106 @@
 //int main()
 //{
 //	char a, b, c;
-//	printf("¹®ÀÚ¸¦ µÎ °³ ÀÔ·Â: ");
+//	printf("ë¬¸ìë¥¼ ë‘ ê°œ ì…ë ¥: ");
 //	scanf("%c%c%c", &a, &b, &c);
-//	printf("¹®ÀÚÃâ·Â: %c%c%c\n",a,b,c);
+//	printf("ë¬¸ìì¶œë ¥: %c%c%c\n",a,b,c);
 //	return 0;
 //
 //}
 
+
+
+
+// 2026 3ì›” 24ì¼ 
+
+
 //#include <stdio.h>
 //int main()
 //{
-//	int radius; //¹İÁö¸§=radiu
+//	int radius; //ë°˜ì§€ë¦„=radiu
 //	double pi;
 //	pi = 3.14;
 //	
-//	printf("¹İÁö¸§ ±æÀÌ:");
+//	printf("ë°˜ì§€ë¦„ ê¸¸ì´:");
 //	scanf("%d", &radius);
 //	 //3.14*r*r
 //
 //	double area_of_a_circle;
 //	area_of_a_circle = pi * radius * radius;
-//	printf("¿øÀÇ ³ĞÀÌ : %lf\n" , area_of_a_circle);
+//	printf("ì›ì˜ ë„“ì´ : %lf\n" , area_of_a_circle);
 //
 //	double circumference;
 //	circumference = 2 * pi * radius;
 //
-//		printf("¿øÀÇ µÑ·¹ : %lf\n", circumference);
-//	//circumference:¿øÀÇ µÑ·¹
+//		printf("ì›ì˜ ë‘˜ë ˆ : %lf\n", circumference);
+//	//circumference:ì›ì˜ ë‘˜ë ˆ
 //
 //
 //		double the_length_of_a_circle;
 //		the_length_of_a_circle = 2 * radius;
 //
-//	printf("¿øÀÇ ±æÀÌ :%lf", the_length_of_a_circle);
-//	//¿øÀÇ ±æÀÌ 2r
-	
-	
+//	printf("ì›ì˜ ê¸¸ì´ :%lf", the_length_of_a_circle);
+//	//ì›ì˜ ê¸¸ì´ 2r
 
 
+
+/*
 #include <stdio.h>
 int main()
 {
-	
-
-	double w1;
-	double w2;
+	int  w1;
+	int  w2;
 	double H;
-	
-	printf("¹Øº¯ÀÇ ±æÀÌ: ");
+	double Area_of_â€‹â€‹a_trapezoid;
+
+	printf("ë°‘ë³€ì˜ ê¸¸ì´: ");
 	scanf("%d", &w1);
-	 
-	
-	printf("À­º¯ÀÇ ±æÀÌ: ");
+
+	printf("ìœ—ë³€ì˜ ê¸¸ì´: ");
 	scanf("%d", &w2);
 
+	printf("ì‚¬ë‹¤ë¦¬ê¼´ì˜ ë†’ì´: ");
+	scanf("%lf", &H);
 
-	printf("»ç´Ù¸®²ÃÀÇ ³ôÀÌ: ");	
-	scanf("%d", &H);
- 
+	Area_of_â€‹â€‹a_trapezoid = (w1 + w2) * H / 2;
+	printf("ì‚¬ë‹¤ë¦¬ê¼´ì˜ ë„“ì´: %lf", Area_of_â€‹â€‹a_trapezoid);
+
+	 // the length of the upper side ìœ—ë³€ì˜ ê¸¸ì´
+	 // trapezoid area scanf("%lf%lf%lf", &w1, &w2, &H);
+	 // length of the base ë°‘ë³€ì˜ ê¸¸ì´
 
 
-	printf("»ç´Ù¸®²ÃÀÇ ³ĞÀÌ: %d", (w1 + w2) * H/ 2);
+//}*/
+
+
+//#include <stdio.h>
+//
+//int main()
+//{
+//	int a = 15;
+//	int b = 3;
+//	printf("%d + %d = %d\n", a, b, a + b);
+//	printf("%d - %d = %d\n", a, b, a - b);
+//	printf("%d * %d = %d\n", a, b, a * b);
+//	printf("%d / %d = %d\n", a, b, a / b);
+//	printf("%d %% %d = %d\n", a, b, a % b);
+//	return 0;
+//
+//}
+
+#include <stdio.h>
+
+int main()
+{
+	int number = 1;
+	number = number + 3; printf("%2d\n", number);
+	number -= 2; printf("%2d\n", number);
+	number--; 
+	printf("%2d\n", number);//í•˜ë‚˜ ë‚´ë ¤ì„œ ì¨ë„ ê°€ëŠ¥í•¨
 
 	return 0;
 
-	
-
-
-
-
-     // the length of the upper side À­º¯ÀÇ ±æÀÌ
-	 // trapezoid area scanf("%lf%lf%lf", &w1, &w2, &H);
-     // length of the base ¹Øº¯ÀÇ ±æÀÌ
-
-
-
-
-
-
-
-
 }
+
+
 
