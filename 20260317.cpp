@@ -171,19 +171,184 @@ int main()
 //
 //}
 
-#include <stdio.h>
+//#include <stdio.h>
+//
+//int main()
+//{
+//	int number = 1;
+//	number = number + 3; printf("%2d\n", number);
+//	number -= 2; printf("%2d\n", number);
+//	number--; 
+//	printf("%2d\n", number);//하나 내려서 써도 가능함
+//
+//	return 0;
+//
+//}
 
+//#include <stdio.h>
+//
+//int main() 
+//{
+//	int A,B;
+//
+//	scanf("%d %d", &A,&B);
+//
+//	printf("%d", A - B);
+//
+//	return 0;
+//
+//}
+
+//#include <stdio.h>;
+//int main()
+//{
+//	int a = 0;
+//
+//	printf("%d\n", a++);
+//
+//	printf("%d\n", a);
+//
+//	return 0;
+//
+//}
+
+
+
+//#include <stdio.h>
+// 
+//int main()
+// 
+//{
+//	int a = 0;
+//	printf("%d\n", ++a);
+//
+//	printf("%d\n", a);
+//
+//	return 0;
+//
+//
+//
+//}
+
+//#include <stdio.h>;
+
+//int main()
+//{
+//	int a = 10, b = 20;
+//
+//	scanf("%d %d", &a, &b, a, b);
+//	
+//printf("%d + %d = %d\n", a,b, a+b);
+//
+//
+//printf("%d - %d = %d\n", a, b, a - b);
+//
+//
+//printf("%d * %d = %d\n", a,b, a*b);
+//
+//
+//printf("%d / %d = %d\n", a,b, a/b);
+//
+//
+//printf("%d %% %d = %d", a,b, a%b);
+//
+//
+//
+//return 0;
+//
+//}
+
+
+//#include <Stdio.h>
+//int main()
+//{
+//	int first = 1 % 4;
+//
+//	printf("%d =1%%4\n", first);
+//
+//	int second = 5 % 3;
+//
+//	printf("%d = 5%%3\n", second);
+//
+//	int third = 4 % 2;
+//
+//	printf("%d = 4%%2\n", third);
+//
+//	return 0;
+//
+//
+//}
+
+//#include <stdio.h>
+//int main()
+//{
+//
+//	int number1, number2;
+//
+//	scanf("%d %d", &number1, &number2);
+//
+//	printf("%d = number1%%4\n", number1 % 4);
+//
+//	printf("%d = number2%%3\n", number2 % 3);
+//	
+//
+//	return 0;
+//
+//}
+
+
+
+//#include <stdio.h>
+//int main()
+//{
+//	int first = 1 % 3;
+//	printf("%d = 1%%3\n", first);
+//	int second = 2 % 3;
+//	printf("%d = 2%%3\n", second);
+//	int third = 3 % 3;
+//	printf("%d = 3%%3\n", third);
+//	int fourth = 4 % 3;
+//	printf("%d = 4%%3\n", fourth);
+//	int fifth = 5 % 3;
+//	printf("%d = 5%%3\n",fifth);
+//	int sixth = 6 % 3;
+//	printf("%d = 6%%3\n", sixth);
+//	return 0;
+//
+//
+//}
+
+
+
+#include <stido.h> 
 int main()
-{
-	int number = 1;
-	number = number + 3; printf("%2d\n", number);
-	number -= 2; printf("%2d\n", number);
-	number--; 
-	printf("%2d\n", number);//하나 내려서 써도 가능함
 
-	return 0;
+
+{
+
+
+
+
+
+
+
+
+
+
+
 
 }
+
+
+
+
+
+
+
+
+
+
+
 
 
 
