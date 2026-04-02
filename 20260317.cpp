@@ -320,26 +320,46 @@ int main()
 
 
 
-#include <stido.h> 
+//#include <stdio.h>
+//
+//
+//int main()
+//
+//{
+//	int number;
+//	printf("임의 숫자를 입력:");
+//	scanf("%d", &number);
+//	printf("임의 숫자 %d%%50\n", number);
+//		
+//		return 0;
+//
+//		
+//
+//
+//}
+
+
+#include <stdio.h>
+
 int main()
-
-
 {
 
+	int number;//
+	
+
+	printf("임의 숫자를 입력:");
+
+		scanf("%d", &number);//
+	int first = number % 50;//
+	
+	printf("임의 숫자 %d%%50\n", number);
 
 
-
-
-
-
-
-
+	return 0;
 
 
 
 }
-
-
 
 
 
