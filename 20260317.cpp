@@ -339,23 +339,62 @@ int main()
 //}
 
 
-#include <stdio.h>
+//#include <stdio.h>
+//
+//int main()
+//{
+//	//input변수를 만든다.
+//	int input;
+//	
+//		//임의의 값을 input에 넣는다.
+//		
+//		scanf("%d", &input);
+//		
+//
+//	//result 변수를 만든다.
+//		int result;
+//
+//	// input을 50으로 나눈다. 그걸 result에 넣는다.
+//		result = input % 50;
+//	
+//	//result를 출력한다.
+//	
+//		printf("임의 숫자를 나눈 나머지 %d\n", result );
+//
+//
 
-int main()
-{
-
-	int number;//
-	
-
-	printf("임의 숫자를 입력:");
-
-		scanf("%d", &number);//
-	int first = number % 50;//
-	
-	printf("임의 숫자 %d%%50\n", number);
 
 
-	return 0;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	//int input;
+	////remainder: 나머지
+	//
+	//printf("임의 숫자를 입력:");
+	//
+	//scanf("%d %d", &input);
+	//
+	//	int first = input % 50;
+
+
+	//	printf("임의 숫자 %d%%50\n", input );
+	//	printf("50으로 나눈 나머지 %d\n", result % 50);
+
+	//return 0;
 
 
 
