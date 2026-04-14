@@ -398,16 +398,97 @@ int main()
 
 
 
+//}
+
+//4월14일 
+
+//#include <stdio.h>;
+//
+//int main()
+//{
+//	int datal  = 6 / 2;
+//	printf("%d = 6/2\n", datal);
+//	int data2 = 6 / 3;
+//	printf("%d = 6/3\n", data2);
+//	int data3 = 6 / 4; 
+//	printf("%d = 6/4\n", data3);
+//
+//	return 0;
+//
+//}
+
+
+//4월 14일
+// 
+//#include <stdio.h>
+//
+//int main()
+//{
+//	int number1, number2;
+//	scanf("%d %d", &number1, &number2);
+//	printf("%d=", number1 / number2);
+//	printf("%d/%d\n", number1, number2);
+//
+//	return 0;
+//
+//}
+
+
+
+
+//4월 13일
+
+//#include <stdio.h>
+//
+//int main()
+//{
+//
+//	int coin;
+//	printf("돈을 입력해주세요.(원)");
+//	scanf("%d", &coin);
+//
+//	int coin10000 = coin / 10000;
+//	coin = coin % 10000;
+//	int coin5000 = coin / 5000;
+//	coin = coin % 5000;
+//	int coin1000 = coin / 1000;
+//
+//	printf("만원권 %d개", coin10000);
+//	printf("오천원권 %d개", coin5000);
+//	printf("천원권 %d개",coin1000);
+//	printf("나머지는 동전입니다.");
+//	
+//	return 0;
+//
+//}
+
+
+//4월 14일
+
+#include <stdio.h>
+int main()
+{
+	
+	int jelly;
+int ;
+int C;
+
+printf("젤리의 값을 입력하세요");
+scanf("%d %d/n", A,B,C);
+
+int A_10000 = A / 10000;
+A = A % 10000;
+
+int B_5000 = B / 5000;
+minus = minus % 5000;
+
+int miuns_1000 = minus / 1000;
+minus = minus % 1000;
+
+printf("만원권 %d개" 10000);
+printf("오천원권 %d개,"5000);
+printf("천원권 %d\n,"1000);
+printf("나머머지는 동전 %d\n,");
+	return 0;
+
 }
-
-
-
-
-
-
-
-
-
-
-
-
