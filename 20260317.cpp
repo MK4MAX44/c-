@@ -468,27 +468,36 @@ int main()
 #include <stdio.h>
 int main()
 {
+	printf("젤리의 값을 입력하세요");
+	int coin1;
+	scanf("%d %d", &coin1d);
+	int coin2;
 	
-	int jelly;
-int ;
-int C;
+	printf("%d = coin1/600\n",coin1);
 
-printf("젤리의 값을 입력하세요");
-scanf("%d %d/n", A,B,C);
 
-int A_10000 = A / 10000;
-A = A % 10000;
 
-int B_5000 = B / 5000;
-minus = minus % 5000;
 
-int miuns_1000 = minus / 1000;
-minus = minus % 1000;
 
-printf("만원권 %d개" 10000);
-printf("오천원권 %d개,"5000);
-printf("천원권 %d\n,"1000);
-printf("나머머지는 동전 %d\n,");
+	//int Jcoin10000 = coin / 10000;
+	//coin = coin % 10000;
+
+	//int Jcoin5000 = coin / 5000;
+	//coin = coin % 5000;
+
+	//int Jcoin1000 = coin / 1000;
+	//coin = coin % 1000;
+
+	//int Jcoin100 = coin / 100;
+	//coin = coin % 100;
+
+
+	//printf("만원권 %d\n", Jcoin10000);
+	//printf("오천원권 %d\n개", Jcoin5000);
+	//printf("천원권 %d\n", Jcoin1000);
+	//printf("백원권 %d\n", Jcoin100);
+	//printf("나머머지는 동전입니다");
+
 	return 0;
 
 }
