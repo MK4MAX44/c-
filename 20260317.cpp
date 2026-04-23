@@ -465,39 +465,56 @@ int main()
 
 //4월 14일
 
-#include <stdio.h>
+//#include <stdio.h>
+//int main()
+//{
+//	printf("젤리의 값을 입력하세요\n:");
+//
+//	int Cjelly; //C=coin
+//	scanf("%d", &Cjelly);
+//	int  coin;
+//	coin = 1000 - Cjelly;
+//
+//
+//
+//	int jcoin500 = coin / 500;
+//	coin = coin % 500;
+//
+//	int jcoin100 = coin / 100;
+//	coin = coin % 100;
+//
+//	int jcoin50 = coin / 50;
+//	coin = coin % 50;
+//
+//	int jcoin10 = coin / 10;
+//	coin = coin % 10;
+//
+//
+//	printf("오백원 %d개\n", jcoin500);
+//	printf("백원 %d개\n", jcoin100);
+//	printf("오십원 %d개\n", jcoin50);
+//	printf("십원 %d개\n", jcoin10);
+//
+//	printf("나머머지는 동전입니다");
+//
+//	return 0;
+//
+//}
+
+
+#include <Stdio.h>
+#include <Stdlib.h>
+
 int main()
-{
-	printf("젤리의 값을 입력하세요");
-	int coin1;
-	scanf("%d %d", &coin1d);
-	int coin2;
-	
-	printf("%d = coin1/600\n",coin1);
 
 
 
 
 
-	//int Jcoin10000 = coin / 10000;
-	//coin = coin % 10000;
-
-	//int Jcoin5000 = coin / 5000;
-	//coin = coin % 5000;
-
-	//int Jcoin1000 = coin / 1000;
-	//coin = coin % 1000;
-
-	//int Jcoin100 = coin / 100;
-	//coin = coin % 100;
 
 
-	//printf("만원권 %d\n", Jcoin10000);
-	//printf("오천원권 %d\n개", Jcoin5000);
-	//printf("천원권 %d\n", Jcoin1000);
-	//printf("백원권 %d\n", Jcoin100);
-	//printf("나머머지는 동전입니다");
 
-	return 0;
 
-}
+
+
+
