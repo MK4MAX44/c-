@@ -572,15 +572,163 @@ int main()
 //}
 
 
+//#include <stdio.h>
+//
+//int main()
+//{
+//	int apple = 15;
+//	if (apple == 15)//apple이 15이면 실행
+//	{
+//
+//		printf("apple은 15개 있습니다.\n");
+//	}
+//
+//	return 0;
+//
+//
+//}
+
+
+//#include <stdio.h>
+
+//int main()
+//{
+//	int apple = 15;
+//	if (apple != 17)//apple이 17이 아니면 실행 ,!= 같지않다
+//	{
+//		// { = 브레이스 1.코드를 묶어서 하나의 코드를 취급한다\
+//		               2.변수의 사용범위 
+//
+//		printf("apple은 17개가 아닙니다.\n");
+//
+//		return 0;
+//	}
+//
+//}
+
+
+//#include <stdio.h>
+//
+//int main()
+//{
+//	int apple = 15;
+//	if (apple > 7)//apple이 7보다 크면 실행
+//	{
+//		printf("apple은 7개보다 많습니다.\n");
+//	}
+//	return 0;
+//
+//}
+
+
+//#include <stdio.h>
+//
+//int main()
+//{	
+//		int apple = 15;
+//		if (apple < 20)//apple이 20보다 적으면 실행
+//		{
+//
+//			printf("apple은 20개보다 적습니다.\n");
+//	}
+//		return 0;
+//
+//
+
+
+//#include <stdio.h>
+
+//int main()
+//{
+//
+//
+//	int apple = 1;
+//	if (apple)//apple이 0이 아니면 실행
+//	{
+//		printf("apple은 0개가 아닙니다.\n");
+//	}
+//	return 0;
+//}
+
+
+
+//#include <stdio.h>
+//
+//int main()
+//{
+//	int apple = 1;
+//	if (!apple)//apple이 0이면 실행
+//		//!= 참과 거짓을 뒤바꾸는 논리연산자
+//
+//	{
+//		printf("apple은 하나도 없습니다.\n");
+//	}
+// return 0;
+//}
+
+
+//#include <stdio.h>
+//int main()
+//{
+//	int apple = 0;
+//	if (apple == 10) //apple이 10이면 실행
+//	{
+//		printf("apple은 10개 있습니다.\n");
+//	}
+//	else if (apple == 0) // apple이 0이면 실행
+//	{
+//		printf("apple은 하나도 없습니다.\n");
+//	}
+//
+//	return 0;
+//}
+
+
+//#include <stdio.h>
+//
+//int main()
+//{
+//	int apple = 15;
+//	if (!apple)//apple이 0이면 실행
+//
+//	{
+//		printf("apple은 하나도 없습니다./n");
+//	}
+//
+//	else //if가 틀리면 (apple이 0이 아니면) 실행
+//	{
+//		printf("apple은 0개가 아닙니다.\n");
+//	}
+// 
+//	return 0;
+//}
 
 
 
 
 
+#include <stdio.h>
+int main()
+{
+	int coin = 10;
+	scanf("%coin", &coin > 0);
 
 
+	scanf("%coin" , &coin < 0);
+	if (coin)
+	{
+		printf("coin이 양수면 실행");
+	}
+	else 
+	{
+		printf("coin이 음수면 실행");
+	}
 
+	return 0;
 
-
+	
+	
+	
+}
 
 
