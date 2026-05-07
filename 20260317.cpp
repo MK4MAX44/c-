@@ -707,28 +707,53 @@ int main()
 
 
 
+//#include <stdio.h>
+//int main()
+//{
+//	int coin = 50;
+//
+//	scanf("%d", &coin);
+//
+//	if (10 <= coin && coin <= 99)
+//	{
+//		printf("coin이 두 자리 숫자이다.\n");
+//
+//	}
+//	//else if (coin < 10)
+//	//{
+//
+//	//	printf("coin이 1o보다 작으면 두 자리 숫자가 아니다.\n");
+//	//}
+//	//else if (coin > 99)
+//	//{
+//
+//	//	printf("coin이 99보다 크면 두 자리 숫자가 아니다.\n");
+//	//}
+//	else {
+//		printf("coin이 두 자리 숫자가 아니다.\n");
+//	}
+//
+//
+//	return 0;
+//
+//}
+
+
 #include <stdio.h>
 int main()
 {
-	int coin = 10;
-	scanf("%coin", &coin > 0);
+
+	int height = 170;
+	if (height > 150) 
+	{
+		printf("키가 150 이상입니다.\n")
 
 
-	scanf("%coin" , &coin < 0);
-	if (coin)
-	{
-		printf("coin이 양수면 실행");
-	}
-	else 
-	{
-		printf("coin이 음수면 실행");
+
 	}
 
-	return 0;
 
-	
-	
-	
+
+
+
 }
-
-
