@@ -738,19 +738,73 @@ int main()
 //
 //}
 
+//
+//#include <stdio.h>
+//int main()
+//{
+//
+//	int height = 170;
+//	if (height > 150) 
+//
+//	{
+//		printf("키가 150 이상입니다.\n");
+//	}
+//
+//	if (height > 160)
+//
+//	{
+//		printf("키가 160 이상입니다.\n");
+//	}
+//
+//	return 0;
+//}
+
+//
+//#include <stdio.h>
+//int main()
+//{
+//	int height = 1401;
+//	if (height > 150)
+//	{
+//		printf("키가 150 이상입니다.\n");
+//	}
+//	else if (height > 160)
+//	{ //else if는 if가 틀렸을때만 실행된다
+//		printf("키가 160 이상입니다.\n");
+//	}
+//	return 0;
+//}
+
+//#include <stdio.h>
+//int main()
+//{
+//	int  age = 0;
+//	scanf("%d", &age);
+//
+//
+//	printf("전체 관람가 입니다.\n");
+//
+//	if (age >= 12)
+//	{
+//		printf("이 영화는 12세 이상 관람가 입니다.\n");
+//	}
+//
+//	if (age >= 15)
+//	{
+//		printf("이 영화는 15세 이상 관람가 입니다.\n");
+//	}
+//
+//	return 0;
+//
+//}
+
+
 
 #include <stdio.h>
 int main()
 {
 
-	int height = 170;
-	if (height > 150) 
-	{
-		printf("키가 150 이상입니다.\n")
 
-
-
-	}
 
 
 
