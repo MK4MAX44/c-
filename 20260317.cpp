@@ -803,10 +803,25 @@ int main()
 #include <stdio.h>
 int main()
 {
+	int initial;//소문자_or_대문자;
+	scanf("%c" , &initial);
+	
+	//소문자 = a()~z();
+	//대문자 = A()~Z(); 아스키 코드
 
+	printf("소문자 , 대문자이다\n");
 
+	if (initial < 7);	
+	{
+		printf(" initial 대문자 입니다.\n");
+	}
 
+	if (initial > 7 )
+	{
+		printf("initia는 소문자 입니다.\n");
+	}
 
+	return 0;
 
 
 
