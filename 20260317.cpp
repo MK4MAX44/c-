@@ -800,29 +800,34 @@ int main()
 
 
 
-#include <stdio.h>
-int main()
-{
-	int initial;//소문자_or_대문자;
-	scanf("%c" , &initial);
-	
-	//소문자 = a()~z();
-	//대문자 = A()~Z(); 아스키 코드
-
-	printf("소문자 , 대문자이다\n");
-
-	if (initial < 7);	
-	{
-		printf(" initial 대문자 입니다.\n");
-	}
-
-	if (initial > 7 )
-	{
-		printf("initia는 소문자 입니다.\n");
-	}
-
-	return 0;
-
-
-
-}
+//#include <stdio.h>
+//int main()
+//{
+//	char initial = 0;//소문자_or_대문자
+//	//65 < initial < 122 ;
+//	
+//	
+//	//65 < initial < 122;
+//
+//	scanf("%c" , &initial);//맞음
+//	printf("initial는 소문자 대문자 둘중 하나이다.\n");
+//
+//	//소문자 = a(97)~z(122) 26 
+//	//대문자 = A(65)~Z(90) 26   아스키 코드
+//
+//	if (initial <= 'z' && 'a'<= initial)//굿
+//	{
+//		printf("initial 소문자 입니다.\n");
+//	}
+//
+//
+//	if (initial <= 'Z' && 'A'<= initial)//굿
+//	{
+//		printf("initia는 대문자 입니다.\n");
+//	}
+//
+//	return 0;
+//
+//
+//
+//}
