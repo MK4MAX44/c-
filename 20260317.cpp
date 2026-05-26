@@ -831,3 +831,119 @@ int main()
 //
 //
 //}
+
+
+//#include <Stdio.h>
+//
+//int main()
+//{
+//	int number, answer;
+//	scanf("%d %d", &number, &answer);
+//	if (number > answer) 
+//	{
+//		printf("숫자1이 숫자2보다 큽니다.\n");
+//	}
+//	else //unber <= answer 인 경우 else 실행
+//	{
+//		if (number < answer)
+//
+//		{
+//			printf("숫자2가 숫자1보다 큽니다.\n");
+//		}
+//		else
+//		{
+//			printf("숫자1과 숫자2과 같습니다.\n");
+//		}
+//	}
+//	return 0;
+//}
+
+//#include <stdio.h>
+//int main()
+//{
+//	int number, answer;
+//	scanf("%d %d", &number, &answer);
+//	if (number > answer)
+//	{
+//		printf("숫자1이 숫자2보다 큽니다.\n");
+//
+//	}
+//	else
+//	{
+//		printf("숫자1과 숫자2가 같습니다.\n");
+//
+//	}
+//	return 0;
+//}
+
+//#include <stdio.h>
+//
+//int main()
+//{
+//	int score = 60;
+//	if (score > 90) //91~100
+//	{
+//		printf("성적은 a등급입니다.\n");
+//	}
+//	else if (score > 80)
+//	{
+//		printf("성적은 b등급입니다.\n");
+//	}
+//	else if (score > 70)
+//	{
+//		printf("성적은 c등급입니다.\n");
+//	}
+//	else if (score > 60) //61~70
+//	{
+//		printf("성적은 d등급입니다.\n");
+//	}
+//	else //0~60
+//	{
+//		printf("성적은 f긍급입니다.\n");
+//	}
+//	return 0;
+//}
+
+//#include <stdio.h>
+//int main()
+//{
+//	int number = -23;
+//	if (number > 0) 
+//	{
+//		printf("number는 음수입니다.\n");
+//	}
+//	else if (number < 0)
+//	{
+//		printf("number는 음수입니다.\n");
+//	}
+//	else 
+//	{
+//		printf("number는 0입니다.\n");
+//	}
+//	if (number % 2 == 0)//2로 나눈 나머지가 0이면 짝수
+//	{
+//		printf("number는 짝수입니다.\n");
+//	}
+//	else
+//	{
+//		printf("number는 홀수 입니다.\n");
+//	}
+//	return 0;
+//}
+//
+
+#include <stdio.h>
+int main()
+{
+	char key = 0;//w,a,d,s w = 119 , a = 97 , d = 100 , s = 116
+	if (key > a)//116~119 사이는 
+	{
+		printf("위 방향키를 입력하셨습니다.\n");
+
+	}
+	if (key >= 116 )
+	printf("좌 방향키를 입력하셨습니다".\n)
+}
+
+
+
