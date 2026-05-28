@@ -932,18 +932,80 @@ int main()
 //}
 //
 
+
+
+	//w,a,d,s w = 119 , a = 97 , d = 100 , s = 116
+
+	//116~119 사이는 
+	
+
+
+
+	
+
+//#include <stdio.h>
+//int main()
+//{
+//	printf("방향키를 입력해\n");
+//	char key;
+//	scanf("%c", &key);
+//
+//
+//
+//	if (key == 'w')
+//	{
+//		printf("위 방향키를 입력했습니다.\n");
+//	}
+//
+//	else if (key == 'a')
+//	{
+//		printf("좌 방향키를 입력했습니다.\n");
+//	}
+//	 else if (key == 'd')
+//	{
+//		printf("우 방향키를 입력했습니다.\n");
+//	}
+//	 else if (key == 's')
+//	{
+//		printf("아래 방향키를 입력했습니다.\n");
+//
+//	}
+//	return 0;
+//}
+
+ 
+//#include <stdio.h>
+//
+//int main()
+//{
+//	printf("완벽한 리름게임 타이밍.\n");
+//	int gauge;
+//	
+//
+//	scanf("%d", &gauge);
+//	if (gauge >= 45 && gauge <= 55)
+//	{
+//		printf("prefect.\n");
+//	}
+//
+//	else if ( 35 <= gauge && gauge <= 65 )
+//
+//		printf("Excellent.\n");
+//
+//	else if ( 0 < gauge  &&gauge < 100 )
+//	{
+//		printf("GOOD.\n");
+//	}
+//	return 0;
+//}
+
 #include <stdio.h>
 int main()
 {
-	char key = 0;//w,a,d,s w = 119 , a = 97 , d = 100 , s = 116
-	if (key > a)//116~119 사이는 
-	{
-		printf("위 방향키를 입력하셨습니다.\n");
+	printf("input 3의 배수인지 6의 배수인지 9의 배수인지 화면에 출력하라")
+	int iput
+	
 
-	}
-	if (key >= 116 )
-	printf("좌 방향키를 입력하셨습니다".\n)
+
+
 }
-
-
-
