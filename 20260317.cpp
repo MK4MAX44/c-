@@ -998,14 +998,180 @@ int main()
 //	}
 //	return 0;
 //}
+//
+//#include <stdio.h>
+//int main()
+//{
+//	int input = 30;
+//
+//	printf("input 3의 배수인지 6의 배수인지 9의 배수인지 화면에 출력하라.\n");
+//	scanf("%d", &input);
+//
+//
+//	if (input % 3 == 0)
+//	{
+//		printf("input는 3의 배수 입니다.\n");
+//		if (input % 6 == 0)
+//		{
+//			printf("input는 6의 배수 입니다.\n");
+//		}
+//		if (input % 9 == 0)
+//		{
+//			printf("input는 9의 배수 입니다.\n");
+//		}
+//
+//	}
+//	return 0;
+//}
+
+
+
+//#include <stdio.h>
+//
+//int main()
+//{
+//
+//	char command = 'i'; //i를 누르면 아이템창이 오픈되는 형식
+//
+//	switch (command)
+//	{
+//	case 'i':
+//		 printf("아이템창 오픈\n");
+//	}
+//
+//	return 0;
+//
+//}
+
+//#include <Stdio.h>
+//
+//int main()
+//{
+//	char command = 'i';
+//	switch (command)
+//	{
+//	case 'i':
+//		printf("아이템창 오픈\n");
+//
+//	case 'm':
+//		printf("지도창 오픈\n");
+//	}
+//	return 0;
+//}
+
+//#include <Stdio.h>
+//
+//int main()
+//{
+//
+//	char command;
+//	printf("커맨드를 입력하세요:");
+//	scanf("%c", &command);
+//	switch (command)
+//	{
+//	case 'm': printf("지도창 오픈\n");
+//	case 'i': printf("아이템창 오픈\n");
+//	}
+//
+//	return 0;
+//
+//}
+
+
+//#include <stdio.h>
+//
+//int main() 
+//{
+//	char command = 'm';
+//	switch (command)
+//	{
+//	case 'i': printf("아이템창 오픈\n");
+//		break; //brenk로 멈춤
+//	case 'm': printf("지도창 오픈\n");
+//	}
+//	return 0;
+//}
+
+
+//#include <Stdio.h>
+//int main()
+//{
+//	char command ;
+//	printf("커맨드를 입력하세요:");
+//
+//	scanf("%c", &command);
+//
+//	switch (command)
+//	{
+//
+//	case 'i': printf("아이템창 오픈\n");
+//		break;
+//	case 'm': printf("지도창 오픈\n");
+//		break;
+//	default: printf("지정된 기능이 없습니다.\n");
+//	}
+//
+//	return 0;
+//
+//}
+
+//#include <Stdio.h>
+//
+//int main()
+//{
+//	char number = 1;
+//	switch (number)
+//	{
+//	case 1: printf("one\n"); break;
+//	case 2: printf("two\n"); break;
+//	case 3: printf("three\n"); break;
+//	}
+//
+//	return 0;
+//
+//}
+
+
+
 
 #include <stdio.h>
 int main()
 {
-	printf("input 3의 배수인지 6의 배수인지 9의 배수인지 화면에 출력하라")
-	int iput
-	
+	int input1;
+	char oper;
+	int input2;
 
+	printf("+ , - , * , / , % 커맨드를 입력하라.\n");
+
+	scanf("%d %c %d" , &input1 , & oper, &input2);//+
+
+	switch (oper)
+
+	{
+
+	case '+': 
+		printf("+를 사용\n"); 
+		break;
+	case '-': 
+		printf("-를 사용\n");
+		break;
+	case '*': printf("*를 사용\n"); break;
+	case '/': printf("/를 사용\n"); break;
+	case '%': printf("%를 사용\n"); break;
+
+
+	}
+
+	int input1;
+	char oper;
+	int input2;
+
+
+	printf("계산된 값은");
+	scanf("%d %c %d:", &input1 , &oper , & input2);
+	prtntf()
+
+	return 0;
 
 
 }
