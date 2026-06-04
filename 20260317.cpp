@@ -1134,44 +1134,172 @@ int main()
 
 
 
+//#include <stdio.h>
+//int main()
+//{
+//	int input1;
+//	char oper;
+//	int input2;
+//
+//	printf("+ , - , * , / , % 커맨드를 입력하라.\n");
+//
+//	scanf("%d %c %d" , &input1 , & oper, &input2);//+
+//
+//	//switch (oper)
+//	//{
+//	//case '+': 
+//	//	printf("+를 사용\n"); 
+//	//	printf("정답 : %d%c%d = %d\n", input1, oper, input2, input1 + input2);
+//	//	break;
+//	//case '-': 
+//	//	printf("-를 사용\n");
+//	//	printf("정답 : %d%c%d = %d\n", input1, oper, input2, input1 - input2);
+//	//	break;
+//	//case '*': 
+//	//	printf("*를 사용\n"); 
+//	//	printf("정답 : %d%c%d = %d\n", input1, oper, input2, input1 * input2);
+//	//	break;
+//	//case '/': 
+//	//	printf("/를 사용\n"); 
+//	//	printf("정답 : %d%c%d = %d\n", input1, oper, input2, input1 / input2);
+//	//	break;
+//	//case '%': 
+//	//	printf("%를 사용\n"); 
+//	//	printf("정답 : %d%c%d = %d\n", input1, oper, input2, input1 % input2);
+//	//	break;
+//	//}
+//
+//	int result = 0;
+//	switch (oper)
+//	{
+//	case '+': result = input1 + input2; break;
+//	case '-': result = input1 - input2; break;
+//	case '*': result = input1 * input2; break;
+//	case '/': result = input1 / input2; break;
+//	case '%': result = input1 % input2; break;
+//	}
+//
+//	printf("%c를 사용\n", oper);
+//	printf("정답 : %d%c%d = %d\n", input1, oper, input2, result);
+//
+//	
+//
+//	//%d + %d = %d\n , %d - %d =%d\n , %d * %d =%d\n , %d / %d =%d\n , %d % %d = %d\n
+//
+//
+//	
+//
+//	
+//
+//
+//	printf("문자출력 : %d %c %d\n " , input1 , oper , input2);
+//	
+//	
+//	
+//	return 0;
+//}
+
+
+
+
+//#include <stdio.h>
+//int main()
+//{
+//	int month;
+//
+//	printf("영어단어를 출력하라");
+//
+//	scanf("%d", &month);
+//
+//
+//	switch (month)
+//	
+//	{
+//	case 1: printf("January"); break;
+//	case 2: printf("February"); break;
+//	case 3: printf("Match"); break;
+//	case 4: printf("April"); break;
+//	case 5: printf("May"); break;
+//	case 6: printf("June"); break;
+//	case 7: printf("July"); break;
+//	case 8: printf("August"); break;
+//	case 9: printf("September"); break;
+//
+//	case 10 :
+//		printf("Octobe"); 
+//		break;
+//	case 11: printf("November"); 
+//		break;
+//	case 12: printf("December"); 
+//		break;
+//	}
+//		
+//	return 0;
+//
+//}
+//
+
+
+
+//#include <stdio.h>
+//
+//int main()
+//{
+//
+//	char command;
+//
+//	printf("< , a 왼쪽이동\n");
+//	printf("> , d 오른쪽이동\n");
+//	scanf("%c", &command);
+//	switch (command)
+//	{
+//	case 'c':
+//	case 'a':
+//		//case를 여러개 써서 같은 코드 실행 가능
+//		printf("왼쪽으로 이동합니다.\n");
+//		break;
+//
+//	case '>': case 'd':
+//		printf("오른쪽으로 이동합니다.\n");
+//		break;
+//
+//	}
+//	return 0;
+//
+//
+//}
+
+
 #include <stdio.h>
 int main()
 {
-	int input1;
-	char oper;
-	int input2;
+	int input;
 
-	printf("+ , - , * , / , % 커맨드를 입력하라.\n");
+	int option = 3;
 
-	scanf("%d %c %d" , &input1 , & oper, &input2);//+
+	printf("메뉴를 선택하세요");
+	printf("1. 새 게임 2. 이어하기 3. 옵션\n");
 
-	switch (oper)
+	scanf("%d", &input);
 
+	switch (input)
 	{
+	case 1:
+		printf("새 게임 시작.\n");
+		break;
+	case 2:
+		printf("세이브 테이터 로드.\n");
+	case option:
+		printf("옵션 세팅.\n");
+		break;
+		de
 
-	case '+': 
-		printf("+를 사용\n"); 
-		break;
-	case '-': 
-		printf("-를 사용\n");
-		break;
-	case '*': printf("*를 사용\n"); break;
-	case '/': printf("/를 사용\n"); break;
-	case '%': printf("%를 사용\n"); break;
+
+
+
+
+
 
 
 	}
-
-	int input1;
-	char oper;
-	int input2;
-
-
-	printf("계산된 값은");
-	scanf("%d %c %d:", &input1 , &oper , & input2);
-	prtntf()
-
-	return 0;
-
-
 }
