@@ -1270,36 +1270,83 @@ int main()
 //}
 
 
+//#include <stdio.h>
+//int main()
+//{
+//	int input;
+//	const int option = 3;
+//	
+//
+//	printf("메뉴를 선택하세요");
+//	printf("1. 새 게임 2. 이어하기 3. 옵션");
+//	
+//
+//	scanf("%d", &input);
+//	
+//	switch (input)
+//	{
+//	case 1:
+//		printf("새 게임 시작.\n");
+//		break;
+//	case 2:
+//		printf("세이브 테이터 로드.\n");
+//		break;
+//
+//	case option:
+//		printf("옵션 세팅 , 짝수입니다."); 
+//		break;
+//	
+//	default:
+//		printf("지정된 기능이 없습니다.\n");
+//	}
+//	return 0;
+//}
+//	
+
+//
+//#include <stdio.h>
+//int main()
+//{
+//	int  number = 0;
+//	printf("0~9를 입력 받아 3,6,9이면 짝을 출력하는 프로그램.\n");
+//	printf("숫자를 입력하세요.\n");
+//	scanf("%d", &number);
+//
+//	switch (number)
+//	{
+//	
+//	case 3:
+//	case 6:
+//	case 9:
+//		printf(" 짝 ");
+//		break;
+//	default :
+//		printf("지정된 기능 없습니다.\n");
+//
+//	}
+//	return 0;
+//
+//}
+
 #include <stdio.h>
 int main()
 {
-	int input;
+	char command = 'x';
 
-	int option = 3;
+	switch (command)
 
-	printf("메뉴를 선택하세요");
-	printf("1. 새 게임 2. 이어하기 3. 옵션\n");
-
-	scanf("%d", &input);
-
-	switch (input)
 	{
-	case 1:
-		printf("새 게임 시작.\n");
+	case 'x':
+		printf("알파벳 x 입력.\n");
 		break;
-	case 2:
-		printf("세이브 테이터 로드.\n");
-	case option:
-		printf("옵션 세팅.\n");
+
+
+		case 
+		printf("엑스표 입력.\n");
 		break;
-		de
-
-
-
-
-
-
-
+		//중복된 case값을 사용할 수 없다.
 
 	}
+	return 0;
+
 }
