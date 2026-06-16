@@ -1328,25 +1328,107 @@ int main()
 //
 //}
 
-#include <stdio.h>
+
+//#include <stdio.h>
+//
+//int main()
+//{
+//	char command = 'x';
+//	switch(command)
+//
+//{
+//	case 'x':
+//
+//		printf("알파벳, x입력.\n");
+//		break;
+//
+//	case'X':
+//
+//		printf("엑스표 입력.\n");
+//		break;
+//		//중복된 case값을 사용할 수 없다.
+//
+//	}
+//	return 0;
+//
+//}
+
+//#include <stdio.h>
+//
+//
+//int main()
+//{
+//	int i_menu;
+//	printf("1.더하기 2.빼기\n");
+//	scanf("%d", &i_menu);
+//	switch (i_menu)
+//
+//	{
+//	case 1:
+//		int number1, number2;
+//		//switch내부에 변수 선언할 때 {} 필요
+//		//뒷장에 답 있음
+//		printf("숫자 두 개를 입력하세요.\n");
+//		scanf("%d %d", &number1, &number2);
+//		printf("%d +  %d = %d\n", number1, number2, number1 + number2);
+//		break;
+//
+//	case 2:
+//		int number3, number4;
+//		printf("숫자 두 개 입력하세요\n");
+//		scanf("%d - %d", &number3, number4, number3 - number4);
+//		break;
+//
+//	}
+//	return 0;
+//
+//}
+
+//#include <stdio.h>
+//int main()
+//{
+//	int i_menu;
+//	printf("1.더하기 2.빼기\n");
+//	scanf("%d", &i_menu);
+//	switch (i_menu)
+//
+//	{
+//	case 1: //brace 추가
+//	{
+//		int number1, number2;
+//		printf("숫자 두 개를 입력하세요.\n");
+//		scanf("%d %d", &number1, number2);
+//		printf("%d + %d = %d\n", number1, number2, number1 + number2);
+//		break;
+//	}
+//	case 2: //brace추가 
+//	{
+//		int number3, number4;
+//		printf("숫자 두 개를 입력하세요.\n");
+//		scanf("%d %d", &number3, &number4);
+//		printf("%d - %d = %d\n", number3, number4, number3 - number4);
+//		break;
+//
+//
+//	}//brace 추가
+//
+//	}
+//	return 0;
+//
+//}
+
+#include <Stdio.h>
 int main()
 {
-	char command = 'x';
 
-	switch (command)
-
-	{
-	case 'x':
-		printf("알파벳 x 입력.\n");
-		break;
+	char coin;
+	printf("방향키를 출력하라");
+	scanf("%c %c %c %c", &coin1 , &coin2 , &coin3 , &coin4);
 
 
-		case 
-		printf("엑스표 입력.\n");
-		break;
-		//중복된 case값을 사용할 수 없다.
 
-	}
-	return 0;
+
+
+
 
 }
