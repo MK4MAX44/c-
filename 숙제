@@ -1,0 +1,39 @@
+#include <stdio.h>
+
+int main()
+{
+    printf("appetizer 1.캐비어 2.샐러드 3.푸아그라\n");
+    printf("mainDish 1.스테이크 2.생선요리 3.양갈비\n");
+    printf("dessert 1.케이크 2.아이스크림 3.초콜릿무스\n");
+
+    int number1, number2, number3;
+    printf("숫자를 세개 입력하세요\n");
+    scanf("%d%d%d", &number1, &number2, &number3);
+
+    char *appetizer, *mainDish, *dessert;
+
+    switch (number1)
+    {
+        case 1: appetizer = "캐비어"; break;
+        case 2: appetizer = "샐러드"; break;
+        case 3: appetizer = "푸아그라"; break;
+    }
+
+    switch (number2)
+    {
+        case 1: mainDish = "스테이크"; break;
+        case 2: mainDish = "생선요리"; break;
+        case 3: mainDish = "양갈비"; break;
+    }
+
+    switch (number3)
+    {
+        case 1: dessert = "케이크"; break;
+        case 2: dessert = "아이스크림"; break;
+        case 3: dessert = "초콜릿무스"; break;
+    }
+
+    printf("주문한 음식은 %s, %s, %s입니다.\n", appetizer, mainDish, dessert);
+
+    return 0;
+}
