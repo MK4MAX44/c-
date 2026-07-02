@@ -71,23 +71,65 @@
 
 int main()
 {
-	printf(" appetizer 1.캐비어 2.샐러드 3.푸아그라\n");
-	printf(" mainDish 1.스테이크 2.생선요리 3.양갈비\n");
-	printf(" dessert 1.케잌 2.아이스크림 3.초콜릿무스");
-	int number1, number2, number3;
-	printf("숫자를 세개 입력하세요\n");
-	scanf("%d%d%d", &number1, &number2, &number3);
-	switch
-	{
-		case 1
-		{
-			int 
-			printf("숫자를 입력하세요\n");
-			scanf("%d" ,  )
-		
-}
+    int number1, number2, number3;
 
-	break;
+   printf("appetizer 1.캐비어 2.샐러드 3.푸아그라\n");
+    printf("mainDish 1.스테이크 2.생선요리 3.양갈비\n");
+    printf("dessert 1.케이크 2.아이스크림 3.초콜릿무스\n");
 
+
+    printf("숫자를 세개 입력하세요\n");
+    scanf("%d%d%d", &number1, &number2, &number3);
+    
+    printf("주문한 음식은 ");
+    switch (number1)
+
+    {
+    case 1:
+        printf("캐비어");
+        printf(",");
+        break;
+    case 2:
+        printf("샐러드");
+        printf(",");
+        break;
+    case 3:
+        printf("푸아그라");
+        printf(",");
+        break;
+        
+    }
+    switch (number2)
+    {
+    case 1:
+        printf("스테이크");
+        printf(",");
+        break;
+    case 2:
+        printf("생선요리");
+        printf(",");
+        break;
+    case 3:
+        printf("양갈비");
+        printf(",");
+        break;
+    }
+
+
+    switch (number3)
+    {
+    case 1:
+        printf("케잌");
+        break;
+    case 2:
+        printf("아이스크림");
+        break;
+    case 3:
+        printf("초코릿무스");
+        break;
+    }
+        printf("입니다");
+    
+    return 0;
 }
 
