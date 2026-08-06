@@ -1417,16 +1417,154 @@ int main()
 //
 //}
 
-#include <Stdio.h>
+//#include <stdio.h>
+//
+//int main()
+//{
+//	while (0)
+//	{
+//		printf("조건이 참일 경우 반복출력\n");
+//
+//
+//	}
+//	return 0;
+//}
+
+
+//#include <stdio.h>
+//
+//int main()
+//{
+//	while (1)
+//	{
+//		printf("조건이 참일 경우 반복출력\n");
+//	}
+//	return 0;
+//}
+
+//#include <stdio.h>
+//
+//int main()
+//{
+//	int count = 0;
+//	while (count < 3)
+//	{
+//
+//		printf("현재 count : %d\n , count");
+//		printf("count가 3보다 작은 반복\n");
+//		count++;
+//
+//		//count를 증가시켜 조건을 만족하지 못하게 함
+//	}
+//	return 0;
+//}
+
+
+//#include <stdio.h>;
+//
+//int main()
+//{
+//	int count = 3;
+//	while (count > 0)
+//	{
+//		printf("현재 count : %d\n",count);
+//		printf("count가 0보다 큰 동안 반복\n");
+//		count--;
+//	}
+//	return 0;
+//}
+
+//#include <stdio.h>
+//int main()
+//{
+//	int  count = 6;
+//
+//	while (count > 0)
+//	{
+//		printf("c");
+//		
+//		count --;
+//	}
+//	return 0;
+//}
+
+
+//#include <stdio.h>
+//
+//int main()
+//{
+//	int count = 0;
+//
+//	while (-10 <= count  && count <= 0)
+//
+//	{
+//		printf("%d\n", count);
+//		count--;
+//	}
+//	return 0;
+//}
+
+////while을 사용하여 0이상의 100이하의 5의 배수들을 출력하라
+
+//#include <stdio.h>
+//
+//int main()
+//{
+//
+//	int count = 5;
+//	
+//	while (0 <= count && count <= 100)
+//	{
+//		if (count % 5 == 0) {
+//		
+//		printf("%d\n", count);
+//
+//		}
+//
+//
+//		count++;
+//
+//	}
+//	
+//	
+//
+//	
+//	return 0;
+//}
+
+
+//#include <stdio.h>
+//int main()
+//{
+//	int count = 3;
+//	while (count)
+//	{
+//
+//		if (count == 1)
+//		{
+//			break;
+//		}
+//
+//		printf("현재 count : %d\n" , count);
+//		printf("count가 0이 아니면 반복\n");
+//		count--;
+//	}
+//
+//	return 0;
+//}
+
+#include <stdio.h>
 int main()
 {
-
-	char coin;
-	printf("방향키를 출력하라");
-	scanf("%c %c %c %c", &coin1 , &coin2 , &coin3 , &coin4);
-
-
-
+	char alphabet;
+	while (1) {
+		printf("알파벳을 입력해주세요(다른 것 입력시 다시입력):");
+		scanf("%c" , &alphabet);
+		if (alphabet >= 'a' && alphabet <= 'z')
+		{
+			printf("소문자를 ")
+		}
+	}
 
 
 
